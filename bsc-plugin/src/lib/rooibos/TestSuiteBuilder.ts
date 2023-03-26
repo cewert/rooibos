@@ -1,9 +1,5 @@
 
-import {
-    type BrsFile,
-    type ClassMethodStatement,
-    type ClassStatement,
-    isClassMethodStatement } from 'brighterscript';
+import { type BrsFile, type ClassMethodStatement, type ClassStatement, isClassMethodStatement } from 'brighterscript';
 
 import { TestGroup } from './TestGroup';
 

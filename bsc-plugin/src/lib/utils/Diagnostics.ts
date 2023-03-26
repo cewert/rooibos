@@ -1,12 +1,4 @@
-import {
-    type BrsFile,
-    type ClassStatement,
-    type FunctionStatement,
-    type Statement,
-    type BscFile,
-    type AnnotationExpression,
-    DiagnosticSeverity,
-    Range } from 'brighterscript';
+import { type BrsFile, type ClassStatement, type FunctionStatement, type Statement, type BscFile, type AnnotationExpression, DiagnosticSeverity, Range } from 'brighterscript';
 
 import type { AnnotationType, RooibosAnnotation } from '../rooibos/Annotation';
 

@@ -1,14 +1,5 @@
 import * as path from 'path';
-import {
-    type BrsFile,
-    type ClassStatement,
-    type FunctionStatement,
-    type NamespaceStatement,
-    type Program,
-    type ProgramBuilder,
-    util,
-    isBrsFile,
-    ParseMode } from 'brighterscript';
+import { type BrsFile, type ClassStatement, type FunctionStatement, type NamespaceStatement, type Program, type ProgramBuilder, util, isBrsFile, ParseMode } from 'brighterscript';
 import type { AstEditor } from 'brighterscript/dist/astUtils/AstEditor';
 import type { RooibosConfig } from './RooibosConfig';
 import { SessionInfo } from './RooibosSessionInfo';

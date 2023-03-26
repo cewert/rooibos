@@ -1,19 +1,4 @@
-import {
-    type AstEditor,
-    type CallExpression,
-    type DottedGetExpression,
-    type Expression,
-    isCallExpression,
-    isCallfuncExpression,
-    isIndexedGetExpression,
-    ArrayLiteralExpression,
-    createInvalidLiteral,
-    createStringLiteral,
-    createToken,
-    isDottedGetExpression,
-    TokenKind,
-    isLiteralExpression,
-    isVariableExpression } from 'brighterscript';
+import { type AstEditor, type CallExpression, type DottedGetExpression, type Expression, isCallExpression, isCallfuncExpression, isIndexedGetExpression, ArrayLiteralExpression, createInvalidLiteral, createStringLiteral, createToken, isDottedGetExpression, TokenKind, isLiteralExpression, isVariableExpression } from 'brighterscript';
 import * as brighterscript from 'brighterscript';
 import { BrsTranspileState } from 'brighterscript/dist/parser/BrsTranspileState';
 import { TranspileState } from 'brighterscript/dist/parser/TranspileState';

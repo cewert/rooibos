@@ -1,9 +1,4 @@
-import {
-    type BscFile,
-    type WalkOptions,
-    type WalkVisitor,
-    Range,
-    Statement } from 'brighterscript';
+import { type BscFile, type WalkOptions, type WalkVisitor, Range, Statement } from 'brighterscript';
 
 import { SourceNode } from 'source-map';
 
