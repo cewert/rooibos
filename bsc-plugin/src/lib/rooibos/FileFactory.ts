@@ -1,4 +1,8 @@
-import { type BrsFile, type Program, type XmlFile, standardizePath as s } from 'brighterscript';
+import {
+    type BrsFile ,
+    type Program ,
+    type XmlFile ,
+    standardizePath as s } from 'brighterscript';
 import * as path from 'path';
 import * as fs from 'fs';
 
